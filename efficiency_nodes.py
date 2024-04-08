@@ -127,7 +127,7 @@ class TSC_EfficientLoader:
                         ascore=None, prompt=None, my_unique_id=None, loader_type="regular"):
 
         # Clean globally stored objects
-        globals_cleanup(prompt)
+        # globals_cleanup(prompt)
 
         # Create Empty Latent
         latent = torch.zeros([batch_size, 4, empty_latent_height // 8, empty_latent_width // 8]).cpu()
