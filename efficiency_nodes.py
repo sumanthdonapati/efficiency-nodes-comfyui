@@ -703,7 +703,7 @@ class TSC_KSampler:
 
         # ---------------------------------------------------------------------------------------------------------------
         # Clean globally stored objects of non-existant nodes
-        globals_cleanup(prompt)
+        # globals_cleanup(prompt)
 
         # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
         # If not XY Plotting
